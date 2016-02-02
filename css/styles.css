@@ -1,0 +1,8 @@
+@font-face {
+  font-family: tolkien;
+  src: url(/fonts/lotr.ttf);
+}
+
+h1, li {
+  font-family: tolkien;
+}
