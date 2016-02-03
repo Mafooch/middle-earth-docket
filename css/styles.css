@@ -34,14 +34,58 @@ body {
   margin-bottom: 20px;
 }
 
-.task_div > p {
+p {
   font-size: 20px;
+  color: white;
+}
+
+#about_description {
+  text-align: center;
+  font-family: tolkien;
+  font-size: 24px;
 }
 
 .fa-check {
-  color: olive;
+  color: darkgreen;
 }
 
 #tasks_header {
   margin: 30px 60px;
+}
+
+.task_link{
+  font-family: tolkien;
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 3px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.back_link {
+  font-family: tolkien;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 50px;
+  font-weight: bold;
+  padding: 3px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.task_link:hover {
+  color: white;
+}
+
+.task_summary {
+  text-align: center;
+  color: white;
+  margin: 30px
+}
+
+.task_page_description {
+  margin: 0 150px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 5px;
 }
