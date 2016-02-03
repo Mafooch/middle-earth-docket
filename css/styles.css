@@ -25,3 +25,23 @@ body {
   border-radius: 50%;
   opacity: .85;
 }
+
+.task_div {
+  color: white;
+}
+
+.task_row {
+  margin-bottom: 20px;
+}
+
+.task_div > p {
+  font-size: 20px;
+}
+
+.fa-check {
+  color: olive;
+}
+
+#tasks_header {
+  margin: 30px 60px;
+}
